@@ -1,0 +1,125 @@
+html {
+    background-color: rgb(92, 13, 13) 
+}
+
+body {
+    font-family: tahoma, helvetica, sans-serif;
+    font-size: 90%;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+header h1,
+header p {
+    color: red;
+}
+
+.container {
+    max-width: 940px;
+    background-color: rgb(20, 20, 20);
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing:border-box;
+}
+
+.nav-links ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+
+
+.nav-links a {
+    display: block;
+    text-decoration: none;
+    color: orange;
+    padding: 10px 20px;
+    border: 3px solid gray;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+
+.nav-links a:hover {
+    background-color: rgba(128, 128, 128, .4)
+}
+
+.content-area {
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+}
+
+.main-area {
+    float: left;
+    width: 66%;
+    box-sizing:border-box;
+    padding-right: 40px;
+    color: rgba(226, 167, 59, 0.705);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid gray;
+}
+
+/* Banner Overlay */
+
+.image-banner {
+    position: relative;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.banner-description {
+    position: absolute;
+    bottom: 0;
+    left: 158px;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 10px 20px;
+}
+
+/* End Overlay*/
+
+.side-bar {
+    float: left;
+    width: 34%;
+    background-color: gray;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+}
+
+
+footer {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
